@@ -69,7 +69,7 @@
     <jenkins.version>2.319.3</jenkins.version>
     <hpi.compatibleSinceVersion>1.0.0</hpi.compatibleSinceVersion>
     <google.api.version>1.32.1</google.api.version>
-    <oauth2.revision>20200213</oauth2.revision>
+    <oauth2.revision>v2-rev20200213-2.0.0</oauth2.revision>
     <lombok.version>1.18.24</lombok.version>
     <spotbugs.effort>Max</spotbugs.effort>
     <doclint>none</doclint>
@@ -226,7 +226,7 @@
     <dependency>
       <groupId>com.google.apis</groupId>
       <artifactId>google-api-services-oauth2</artifactId>
-      <version>v2-rev${oauth2.revision}-${google.api.version}</version>
+      <version>v2-rev${oauth2.revision}</version>
       <exclusions>
         <exclusion>
           <groupId>com.google.http-client</groupId>
